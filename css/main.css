@@ -1,0 +1,375 @@
+.light-color{ color: #00e5b9;}
+.dark-blue{color:#001769;} 
+.roboto-font{font-family:Roboto;}
+
+.navbar-nav .nav-link{
+    font-size: 18px;
+    margin-left: 10px;
+    color:#001769 !important;
+    font-family:Roboto;
+    margin-top: 5px;
+}
+.navbar-nav .nav-link{padding: 0px;}
+.navbar-nav .nav-item {padding: 0 10px;}
+.navbar ul li .active{border-bottom: 2px solid #00e5b9 !important;}
+.navbar .navImage{width: 60%; margin-top: 5px;}
+.navbar form .btn,.signin form .btn{
+    color:#001769 !important;
+    background-color: #00e5b9;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 90px;
+    height: 28px;
+    line-height: 15px;
+    font-weight: bold;
+}
+.navbar form .btn:focus,.signin form .btn:focus,.signup form .btn:focus{
+    box-shadow: none;outline: none;
+}
+
+/* end navbar section */
+
+/* ///////////////////////////////////////////////// */
+
+/* Start Home Section */
+.introduction {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-top: 80px;
+}
+.introduction .par1{ font-size: 24px; padding: 60px 35px; color:#001769;}
+.introduction span{font-weight: bold;text-transform: uppercase;}
+.introduction .img1{width: 77%; float: right;}
+.introduction h6{
+    color:#001769;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.introduction .btn1, .introduction .btn2{
+    background-color: #00e5b9;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 20px;
+    color:#001769;
+    font-size: 19px;
+}
+.introduction .btn1:focus, .introduction .btn2:focus{ outline: none;}
+.introduction .before, .introduction .after{ padding-bottom: 70px;}
+.introduction .before .img2{width: 65%; margin-left: 5%;}
+.introduction .before .before-info{padding: 7% 15% 0 6%;}
+.introduction .before h4{color:#001769; font-weight: bold;}
+.introduction .before p, .introduction .after p{ font-size: 20px;}
+.introduction .after{ padding-top: 50px;}
+.introduction .after .after-info{ padding: 7% 15% 0 5%;}
+.introduction .after h4{ color:#001769;  font-weight: bold;}
+.introduction .after .img3{ width: 60%;margin-left: 10%;}
+.introduction .btn2{ padding: 5px 25px; margin-bottom: 6%;}
+.introduction .card-deck { margin: 0 13%;}
+.introduction .card-deck .card{ border-radius: 10px;}
+.introduction .card-deck .card:first-child{ padding-top: 35px;}
+.introduction .card-deck .card:last-child{ padding-top: 25px;}
+.introduction .card-deck .card:nth-child(2){ padding-top: 37px;}
+.introduction .card-deck .card-img1{ width: 70%;}
+.introduction .card-deck .card-img2{ width: 40%;}
+.introduction .card-deck .card-img3{width: 46%;}
+.introduction .card-deck .card-body {padding: 15px 0;}
+.introduction .card-body h2{font-size: 37px;color: #001769;margin-top: 5px;}
+.introduction .card-deck .card-body p{font-size: 14px;padding: 0 5px;
+    font-family: 'Roboto', sans-serif;}
+.introduction hr{
+     border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right,rgba(181, 185, 210, -1),
+    rgba(0, 23, 105, 1),rgba(181, 185, 210, -1));}
+.business{
+    background-color: #efeffe;
+    color: #001769;
+    padding: 18% 5% 6%;
+    position: relative;
+    margin-top: -115px;
+    z-index: -2;    
+}
+.business .concepts{padding-left: 6em;padding-right: 0;}
+.business h4{font-weight: bold;margin-bottom: 35px;}
+.business ul{padding-left: 8px;list-style: none;}
+.business li::before {
+    content: "";
+    background: #00e5b9;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+    padding: 5px 8px;
+    font-size: 4px;
+    text-align: center;
+}
+.feat{display: inline-block;}
+.business ul li {font-weight: bold;font-size: 17px;margin-bottom: 10px;}
+.business ul li p span{font-weight: normal;font-size: 15px;}
+.business img{width: 75%;margin-left: 20%;}
+.statistics{background-color: #00e5b9;padding: 35px 50px 20px;}
+.statistics h2{
+    color: #001769;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.statistics p{color: #fff;}
+.statistics button{
+    background-color: #fff;
+    font-size: 20px;
+    padding: 10px 35px;
+    margin-left: 25%;
+    color: #001769;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+}
+.statistics button:focus{outline: none;}
+.statistics img{width: 75%;float: right;}
+.statistics .start{ margin: 70px 0 30px 15px;}
+.firm{padding: 70px 0 20px;}
+.firm .firm-head{font-weight: bold; color: #001769;padding: 0px 25%;}
+.firm img{width: 75%; margin: 7% 10%;}
+.firm .form-group{padding: 35px 0;}
+.firm .form-group .touch{
+    color: #00e5b9;
+    margin: 0 0 5% 22%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.firm .form-input{margin-bottom: 20px;}
+.firm input{
+    border: none;
+    border-bottom: 1px solid #cccc;
+    margin: auto;
+    width:65%;
+    padding: 5px 0px !important;
+}
+.firm input:focus {box-shadow: none;outline: none;border-bottom: 1px solid #333;}
+.firm ::placeholder {color: #001769;opacity: 1; }
+.firm form button{
+    background-color: #00e5b9;
+    border-radius: 20px;
+    border: none;
+    color: #001769;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* End Home Section  */
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* start signin section */
+.signin .signinimage{ width:45%;height: 85%;}
+.signin .signinheader{ color:#00e5b9;font-weight: bold;}
+::placeholder {color: #001769;opacity: 1;}
+.signin input{
+    border: none;
+    border-bottom: 1px solid #cccc;
+    margin: auto;
+    width:65%;
+    padding: 5px 0px !important;
+}
+.signin .form-group input:focus,.signup .form-group input:focus {
+  box-shadow: none;
+  outline: none;
+  border-bottom: 1px solid #333;
+}
+/* end signin section */
+
+/* start signup section */
+.signup .signupheader{ color: #001769;font-weight: bold;}
+.signup p{font-size: 15px;}
+.signup input{
+    border: none;
+    border-bottom: 1px solid #cccc;
+    padding: 5px 0px !important;
+}
+.signup .mobileinput,.signup .emailinput,.signup .passwordinput{width: 65%;}
+.signup .firstnameinput,.signup .lastnameinput{width: 30%;}
+.signup .form-group input:focus {
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid #333;
+}
+.signup form .btn{
+    color:#001769 !important;
+    background-color: #00e5b9;
+    border-radius: 20px;
+    width:30%;
+    height: 30px;
+    line-height: 15px;
+    font-weight: bold;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important; 
+    margin-left: 50px;
+}
+.signup .accounttext{color:#001769 ;font-weight: bold;}
+.signup a{color:#001769;font-weight: bold;text-decoration: underline;}
+.signup .signupimage{
+    width: 45%;
+    height: 85%;
+    float: right;
+    margin-right: 1.5em;}
+/* end sign up section */
+
+/* Start About Us Section  */
+.about-us{padding: 80px 0;font-family: 'Roboto', sans-serif;}
+.about-us .team-info{ font-size: 25px; padding: 60px 35px; color:#001769;}
+.about-us .about-img{ width: 60%;float: right;margin-right: 25px;}
+/* End About Us Section  */
+
+/* Start Our Culture */
+.our-culture{
+    background-color: #00e5b9;
+    padding: 50px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.our-culture h2, .partners h2{ color:#001769; font-weight: bold; margin-bottom: 20px;}
+.our-culture p{font-size: 24px;  line-height: 1.2;}
+.our-culture span{font-weight: bold; text-transform: uppercase;}
+/* End Our Culture */
+
+/* Start Partners section */
+.partners{padding: 50px 0;font-family: 'Roboto', sans-serif;}
+.partners img{ width: 45%; margin: 10px 0 20px 0;}
+.partners p{font-size: 26px; line-height: 1.2; padding: 0 6em;}
+  
+/* End Partners section */
+
+/* start footer style */
+/* you should change the footer properties to match the below code     */
+.footer{    
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    background-color: #001769; 
+}
+/* you should add the below code for overlay    */
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/home/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer .footerImage{width:83%;height: 67%;}
+.fab {
+    padding: 8px;
+    font-size: 14px;
+    width: 31px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border:1px solid #B1B1B1;
+    color:#fff;
+    border-radius: 50%;
+}
+.fa-facebook-f:hover ,.fa-linkedin-in:hover{background: #3B5998;color: #fff;}
+.fa-twitter:hover{ background-color:#55ACEE ; color:#fff}
+.contact ul li{ font-size: 14px; font-weight: bold; color: #A9A9A9;}
+.social{color:#A9A9A9;font-size: 12px;}
+.contact ul li i,.links i{ color:#CCC;}
+
+.footer .contact{margin-top: 10px;}
+.footer .contact img{width: 20%; margin-right: 10px;}
+.footer{ visibility: visible !important;}
+.footer .helpful-links h6,.footer .contact h6{ color: #00e5b9; font-size: 15px;
+margin-bottom: 1.3em;}
+.footer .helpful-links ul{margin-left: 15px;}
+.footer .helpful-links li{ margin-top: 5px;}
+.footer .helpful-links ul li a{ font-size: 18px; color: #fff; margin-bottom: 10px;}
+.footer .footerText{color: #fff; line-height: 2.1;
+    padding: 2em 1em 0 7.7em; font-size: 18px;}
+.footer .cfinspan{font-weight: bold; text-transform: uppercase;}
+.footer .end span{color:#fff; font-size: 12px;}
+.footer a{text-decoration: none;cursor: pointer;}
+.footer li a:hover{ color: #00e5b9 !important; transition: all ease-in-out .5s;}
+.footer a span:hover{ color: #00e5b9 !important;transition: all ease-in-out .5s;}
+/* end contact us style  */
+/* Hover */
+.navbar form .btn:hover, .signin form .btn:hover,
+.introduction .btn1:hover, .introduction .btn2:hover,
+.signup form .btn:hover, .btn:hover{
+    color: #00e5b9 !important;
+    background-color: #001769;
+    -webkit-transition: all ease-in-out .5s;
+    -moz-transition: all ease-in-out .5s;
+    -o-transition: all ease-in-out .5s;
+    transition: all ease-in-out .5s;
+    box-shadow: 0px 1px 10px #3B5998;
+}
+.introduction .card-deck .card:hover{
+    -webkit-transition: all ease-in-out .5s;
+    -moz-transition: all ease-in-out .5s;
+    -o-transition: all ease-in-out .5s;
+    transition: all ease-in-out .5s;
+    transform: scale(1.1,1.2);   
+}
+.footer .socialStyle img:hover{
+    -webkit-transition: all ease-in-out .5s;
+    -moz-transition: all ease-in-out .5s;
+    -o-transition: all ease-in-out .5s;
+    transition: all ease-in-out .5s;}
+
+/* Media Query */
+@media(max-width:992px){
+    .navbar-nav .nav-item{margin: 10px;}
+    .navbar .nav-item{width: 30%;}
+    .navbar-nav .nav-link {margin-left: 0px;font-size: 15px;}
+    .signup form .btn{width: 37%; margin: 0;}
+    .signup .signupimage{ float: none; margin-top: 20px;}
+    .about-us{padding: 10px 0;text-align: center;font-family: 'Roboto', sans-serif;}
+    .about-us .team-info{ padding: 10px; color:#001769; font-size: 18px;}
+    .our-culture p,.partners p{font-size: 18px;}
+    .about-us .about-img{width: 250px;}
+    .partners{padding-bottom: 10px;}
+    .partners h2{font-size: 26px;}
+    .partners img{width: 300px;height: 150px; margin: 10px 0; }
+    .partners p{padding: 0;}
+    .footer, .signup{ text-align: center;}
+    .footer .helpful-links h6,.footer .contact h6{ margin:20px 0px;}   
+    .footer .footerText{ padding: 20px;}
+    .footer .footerImage{width: 33%; height: 60%;}
+    .footer .contact img{width: 10%}
+    .introduction{padding-bottom: 50px;padding-top: 0; text-align: center;}
+    .introduction .img1{float: none;margin-bottom: 20px;}
+    .introduction h6{font-size: 20px;}
+    .introduction .before, .introduction .after{padding-bottom: 10px;}
+    .introduction .after { padding-top: 30px;}
+    .introduction .after .after-info{padding: 0 5%;margin-bottom: 15px;}
+    .introduction .after .img3 {width: 75%;margin-left: 0;margin-bottom: 20px;}
+    .introduction .before .before-info {padding: 5%;margin-top: 20px;}
+    .introduction .card-deck {margin: 0;}
+    .business .concepts{padding-left: 30px;}
+    .statistics .start{margin: 0}
+    .firm .firm-head{ padding: 0px 10%;}
+    .introduction .card-deck {margin: 5% 22%;}
+    .statistics button{margin-bottom: 50px;}
+    .statistics img {width: 100%;}
+    .introduction .card-deck .card-body p {padding: 0 10px;}
+    .card-deck .card {margin-bottom: 40px;}     
+    .introduction .card-deck {margin: 0% 0%;}  
+    .introduction  .par1{padding: 20px 10px}
+    .business{margin-top: -50px;}
+}
+@media(min-width:992px){.signupimage{margin-left: 130px;}}
+@media (min-width:400px) and (max-width: 600px){
+    .signinimage{margin-left: 130px !important;} 
+    .navbar .nav-item{width: 22%;}
+    .introduction .card-deck {margin: 5% 22%;} 
+    .about-us .about-img{ width: 250px; margin-right: 100px;}
+}
+@media(max-width:400px){ .navbar .nav-item{width: 30%;}
+}
+
+@media (max-width: 450px){
+    .introduction .card-deck {margin: 7% }
+    .statistics {padding: 20px 0;}
+    .statistics h2 {margin-bottom: 15px;}
+    .firm {padding: 30px 0;}
+    .firm .firm-head{padding: 0;}
+    .firm .form-group .touch {margin: 0 0 5% 15%;}
+    .firm .form-group {padding: 10px 0;}
+}
